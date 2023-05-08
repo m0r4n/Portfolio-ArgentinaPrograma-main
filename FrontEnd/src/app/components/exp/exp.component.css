@@ -1,0 +1,52 @@
+.row{
+    padding: 60px;
+    border: 1.5px outset #000;
+}
+
+div{
+    /* background-color: #3f5b95; */
+    background-image: linear-gradient(to right, #3f3f3fce 0%, #a1a1a1 100%);
+} 
+
+
+h2, h3{
+    display:inline;
+}
+
+#titulo{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #140f27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363333ce, #635252, rgb(199, 199, 199)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+    border: 1.5px outset #000;
+}
+
+#texto{
+    color: #dde5e5;
+    padding-left: 40px;
+}
+
+#pc{
+    width: 70px;
+    height: 70px;
+}
+
+#cm{
+    width: 70px;
+    height: 70px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.titulo1{
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    
+}
+.titulo1:hover{
+    color:rgb(105, 98, 109);
+}

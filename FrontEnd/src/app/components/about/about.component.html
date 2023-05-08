@@ -1,0 +1,26 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=IBM+Plex+Mono&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<div class="row">
+    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar Persona
+    </button>
+    
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="bio">
+        <img src= "https://d2a5isokysfowx.cloudfront.net/wp-content/uploads/2022/02/%C2%BFQue-es-un-framework-en-programacion-scaled-1200x675.jpg" class="img-fluid" id="profilepic">
+        <h4 id="nombre">{{persona.nombre}} {{persona.apellido}}</h4>
+        <p id="descripcion">Full Stack Developer Jr.</p>
+        <p class="ubicacion">🇦🇷</p>
+    </div>
+    
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id="about">
+        <span>
+            <h2 class="acerca">ACERCA DE MI</h2>
+            <p>Hola! Mi nombre es Isaias Moran!
+                <p>Me encanta trabajar en la web, inspirado a seguir aprendiendo cada día más.</p>
+        </span>
+    </div>
+    </div>
